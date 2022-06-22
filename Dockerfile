@@ -10,6 +10,6 @@ RUN go get .
 
 RUN go build -o /dm-little-helper
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD [ "/dm-little-helper" ]

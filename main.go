@@ -14,7 +14,7 @@ func main() {
 	r.GET("/", controller.GetHome)
 	r.GET("/roll/:sides", controller.GetDiceRoll)
 
-	err := r.Run("0.0.0.0:8080")
+	err := r.Run("0.0.0.0:80")
 	if err != nil {
 		panic(err)
 	}
